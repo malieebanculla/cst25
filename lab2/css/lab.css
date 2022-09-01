@@ -1,14 +1,62 @@
 body {
-    background-color: lightskyblue;
-    border: 2px dotted orange;
+    margin: 50px; /*This makes the entire page have a 50px margin*/
+}
+
+#box {
+    background-color: #EDBB99; /*this changes the background color of the box*/
+    border: 5px inset #FF7043; /*this sets the size, style, and color of the border on the box*/
+    border-top-left-radius: 45px; /*this changes the top left border of the box*/
+    border-top-right-radius: 45px; /*this changes the top right border of the box*/
+    border-bottom-right-radius: 45px; /*this changes the bottom right border of the box*/
+    width: 500px; /*this sets the width of the box*/
+    height: 150px; /*this sets the height of the box*/
+}
+
+#b2 {
+    margin: 55px; /*this sets the margin on the second box*/
+    background-color: #EDBB99; /*this changes the background color of the box*/
+    border: 5px inset #FF7043; /*this sets the size, style, and color of the border on the box*/
+    border-top-left-radius: 45px; /*this changes the top left border of the box*/
+    border-top-right-radius: 45px; /*this changes the top right border of the box*/
+    border-bottom-left-radius: 45px; /*this changes the bottom left border of the box*/
+    width: 500px; /*this sets the width of the box*/
+    height: 150px; /*this sets the height of the box*/
+}
+
+#b3 {
+    background-color: #EDBB99; /*this changes the background color of the box*/
+    border: 5px inset #FF7043; /*this sets the size, style, and color of the border on the box*/
+    border-top-left-radius: 45px; /*this changes the top left border of the box*/
+    border-top-right-radius: 45px; /*this changes the top right border of the box*/
+    border-bottom-right-radius: 45px; /*this changes the bottom right border of the box*/
+    width: 500px; /*this sets the width of the box*/
+    height: 150px; /*this sets the height of the box*/
 }
 
 h1 {
-    color: purple;
+    color: #1B4F72; /*this changes the heading color*/
+    text-align: center; /*this pushes the heading to the center of the box*/
+    font-family: 'Crushed', cursive; /*this changes the font of the heading*/
+    letter-spacing: 0.5em; /*this spaces the letters out*/
 }
 
 p {
-    color: red;
-    text-align: right;
+    color: red; /*this sets the color of the paragraph to red*/
+    text-align: right; /*this aligns the paragraph text to the right*/
+    padding: 25px; /*this puts a padding of 25px on all of the text*/
+    font-family: 'Silkscreen', cursive; /*this changes the font*/
+}
+
+#p2 {
+    color: red; /*this sets the color of the paragraph to red*/
+    text-align: right; /*this aligns the paragraph text to the right*/
+    padding: 50px; /*this puts a padding of 25px on all of the text*/
+    font-family: 'Silkscreen', cursive; /*this changes the font*/
+}
+
+li {
+    margin-top: 35px;
+    font-family: 'Silkscreen', cursive; /*this changes the font*/
+    text-align: center; /*this centers the text*/
 }
 
