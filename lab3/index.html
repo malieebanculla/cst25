@@ -1,11 +1,62 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-	<title>Lab X - Subject/Topic</title>
+    <meta charset="utf-8">
+    <title>CST252 Lab 3 - Pseudocoding and Problem Solving</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anybody:wght@300&family=Rampart+One&display=swap" rel="stylesheet">
 </head>
 <body>
-
+	<div id="box">
+    <h1>Lab 3</h1>
+    <p>Malie Ebanculla (she/her)</p>
+	</div>
+    <h2>Describe the task or game you picked to me so I can understand it</h2>
+    <p>The task we decided to go with is a mirror simulator, where participants can place cubes on either side of a bar(mirror), and it reflects the cubes an equal distance on the other side.</p>
+    <h2>Write down brief answers to the questions we asked:</h2>
+    <ol>
+        <li>
+        What actions can I take?
+            <ul>
+                <li>Placing cubes</li>
+                <li>Moving the mirror up and down</li>
+            </ul>
+        </li>
+        <li>
+        What do I need to remember or keep track of?
+            <ul>
+                <li>Keep track of the coordinates of the cube</li>
+                <li>Keep track of all the cubes placed</li>
+                <li>Keep track of the coordinates of the bar</li>
+            </ul>
+        </li>
+        <li>
+        What do I do over and over again?
+            <ul>
+                <li>Check for new cubes placed</li>
+                <li>Calculate coordinate positions</li>
+            </ul>
+        </li>
+        <li>
+        When do I need to make decisions?
+            <ul>
+                <li>Where on the y-axis the mirror is</li>
+                <li>Have to make the decision to subtract or add twice the distance between the cube and the mirror</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Write down a pseudocode process for your task</h2>
+    <ol>
+        <li>Check position of mirror on the y-axis</li>
+        <li>Set cubes on screen, and check position of the cube that is placed</li>
+        <li>Keep track of the x-axis of the cube(it’s the same in the reflection)</li>
+        <li>Check distance between the cube and the mirror</li>
+        <li>If on top, subtract double the distance of the cube’s y-axis from the y-axis of the mirror. Add double if placed below</li>
+        <li>Add that value to the y-axis of the reflection (which should already have the x-axis from step 3)</li>
+    </ol>
 </body>
 </html>

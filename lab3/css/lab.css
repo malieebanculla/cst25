@@ -1,0 +1,26 @@
+html {
+    margin: 3em;
+}
+#box {
+    background-color: lightblue;
+    border: 1.5px dotted blue;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'Rampart One', cursive;
+}
+
+h1 {
+    font-family: 'Rampart One', cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Anybody', cursive;
+}
+
+li {
+    line-height: 2em;
+}
