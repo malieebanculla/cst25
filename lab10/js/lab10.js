@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { 
 
 //1. one of the course boxes 
 //2. mouseover
@@ -58,6 +58,5 @@ let exitButton = document.querySelector('#exitbutton');
 let closePanel = (e) => {
     infoPanel.style.display = "none";  
 }
-
 
 })
