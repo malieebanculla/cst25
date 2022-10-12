@@ -52,11 +52,15 @@ button.addEventListener('click', showPanel);
 //2. click 
 //3. info panel disappears 
 
-let exitButton = document.querySelector('#exitbutton');
-    exitButton.addEventListener('click', closePanel);
+let exitButton = document.querySelector('#exitbutton').onclick
+function myFunction () {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+   
 
 let closePanel = (e) => {
-    infoPanel.style.display = "none";  
+    infopanel.style.display = "none";  
 }
 
-})
+exitButton.addEventListener("click", closePanel);
+});
