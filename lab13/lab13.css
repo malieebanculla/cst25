@@ -1,0 +1,26 @@
+.box {
+	background-color: #7F9788;
+	width: 300px;
+	height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 50px;
+}
+
+.click {
+    padding-left: 125px;
+    font-family: 'Silkscreen', cursive;   
+}
+
+.text {
+    padding: 35px;
+    font-family: 'Creepster', cursive;
+    text-transform: uppercase;
+    color: red;
+    font-size: 75px;
+    position: absolute;
+}
+
+
